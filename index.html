@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Conversor Digital</h2>
+        <form>
+            <div class="amount">
+                <p>Valor</p>
+                <input type="text" value="1">
+            </div>
+            <div class="convert-box">
+                <div class="from">
+                    <p>De:</p>
+                    <div class="select-input">
+                        <img src="https://flagcdn.com/48x36/us.png" alt="Bandeira">
+                        <select class="from-select"></select>
+                    </div>
+                </div>
+                <div class="reverse"><i class="fa fa-exchange-alt"></i></div>
+                <div class="to">
+                    <p>Para:</p>
+                    <div class="select-input">
+                        <img src="https://flagcdn.com/48x36/gb.png" alt="Bandeira">
+                        <select class="to-select"></select>
+                    </div>
+                </div>
+                <div class="result-box">
+                    <div class="result">Obtendo valor de Cambio</div>
+                    <button>Converter</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    
+    
+
+    <script src="assets/js/countries.js"></script>
+    <script src="assets/js/index.js"></script>
+</body>
+</html>
